@@ -1,0 +1,90 @@
+{
+    // ---- VS Code ----
+
+    // General
+    "workbench.list.smoothScrolling": true,
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.colorTheme": "Min Dark",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.activityBar.location": "top",
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.bracketPairColorization.enabled": true,
+    "json.schemaDownload.enable": true,
+    "breadcrumbs.enabled": false,
+    "window.titleBarStyle": "custom",
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "window.restoreWindows": "all",
+    "files.associations": {
+      ".env.*": "dotenv"
+    },
+
+    // Explorer
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+  
+    // Terminal
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrains Mono Medium",
+    "terminal.external.windowsExec": "wt",
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  
+    // Security
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+  
+    // Code runner
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "cls ; python -u",
+    },
+    "code-runner.ignoreSelection": true,
+    "python.defaultInterpreterPath": "python",
+
+    // Editor
+    "workbench.settings.applyToAllProfiles": [
+      "editor.fontFamily"
+    ],
+    "editor.fontVariations": true,
+    "editor.codeLensFontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": "normal",
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [100],
+    "editor.tabSize": 4,
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.parameterHints.enabled": true,
+    "window.zoomLevel": 1,
+    "editor.fontLigatures": true,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.accessibilitySupport": "off",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.hideCursorInOverviewRuler": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "auto",
+    "editor.renderLineHighlight": "all",
+    "editor.quickSuggestions": {
+      "strings": "on"
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+
+    // VS Code autosave
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    
+    // ---- Claude code ----
+    "claudeCode.preferredLocation": "panel"
+  }
